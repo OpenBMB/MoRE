@@ -7,6 +7,7 @@
 
 <a href='https://arxiv.org/abs/2505.22095'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 <a href='https://huggingface.co/hmhm1229/R1-Router'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
+<a href='https://huggingface.co/hmhm1229/R1-Router-3B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
 
 Chunyi Peng<sup>1</sup>,
 Zhipeng Xu<sup>1</sup>,
@@ -24,6 +25,9 @@ Maosong Sun<sup>2</sup>
 <h5 align="center"> If you find this project useful, please give us a star🌟.
 </h5>
 </div>
+
+## News
+8.22 We upload [R1-Router-3B](https://huggingface.co/hmhm1229/R1-Router-3B).
 
 ## Environment
 For training, answer generation, and evaluation processes:
