@@ -26,7 +26,8 @@ Maosong Sun<sup>2</sup>
 </div>
 
 ## News
-2026.04.03 Our work is accepted by SIGIR2026!
+2026.04.03 Our work is accepted by SIGIR2026 🎉🎉🎉!
+
 2025.08.22 We upload [MoRE-3B](https://huggingface.co/hmhm1229/R1-Router-3B).
 
 ## Environment
