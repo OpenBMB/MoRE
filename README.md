@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1> R1-Router: Learning to Route Queries across Knowledge Bases for Step-wise Retrieval-Augmented Reasoning </h1>
+<h1> MoRE: Mixture-of-Retrieval Experts for Reasoning-Guided Multimodal Knowledge Exploitation </h1>
 
 
 <h5 align="center"> 
@@ -14,7 +14,6 @@ Zhipeng Xu<sup>1</sup>,
 Zhenghao Liu<sup>1</sup>,
 Yishan Li<sup>3</sup>,
 Yukun Yan<sup>2</sup>,
-Zhiyuan Liu<sup>2</sup>,
 Yu Gu<sup>1</sup>
 Minghe Yu<sup>1</sup>
 Ge Yu<sup>1</sup>
@@ -27,7 +26,8 @@ Maosong Sun<sup>2</sup>
 </div>
 
 ## News
-8.22 We upload [R1-Router-3B](https://huggingface.co/hmhm1229/R1-Router-3B).
+2026.04.03 Our work is accepted by SIGIR2026!
+2025.08.22 We upload [MoRE-3B](https://huggingface.co/hmhm1229/R1-Router-3B).
 
 ## Environment
 For training, answer generation, and evaluation processes:
@@ -71,7 +71,7 @@ If you do not want to train the model, you can download [R1-Router](https://hugg
 ### Data Synthesis
 If you want to use the ready-to-use synthetic data directly, you can skip this section to [Step-GRPO Training](#step-grpo-training)
 
-First, we need to synthesis the data step by step:
+First, we need to synthesize the data step by step:
 ```bash
 bash src/data_synthesis/data_synthesis.sh
 ```
@@ -102,18 +102,18 @@ Our work is built on the following codebases, and we are deeply grateful for the
 - [OmniSearch](https://github.com/Alibaba-NLP/OmniSearch)
 
 ## Citation
-We appreciate your citations if you find our paper related and useful to your research!
+We appreciate your citations if you find our paper relevant and useful to your research!
 ```
-@article{peng2025r1,
-  title={Learning to Route Queries across Knowledge Bases for Step-wise Retrieval-Augmented Reasoning},
-  author={Peng, Chunyi and Xu, Zhipeng and Liu, Zhenghao and Li, Yishan and Yan, Yukun and Wang, Shuo and Liu, Zhiyuan and Gu, Yu and Yu, Minghe and Yu, Ge and Sun, Maosong},
+@article{peng2025mixture,
+  title={Mixture-of-Retrieval Experts for Reasoning-Guided Multimodal Knowledge Exploitation},
+  author={Peng, Chunyi and Xu, Zhipeng and Liu, Zhenghao and Li, Yishan and Yan, Yukun and Wang, Shuo and Gu, Yu and Yu, Minghe and Yu, Ge and Sun, Maosong},
   year={2025}
   url={https://arxiv.org/abs/2505.22095}, 
 }
 ```
 
 ## Contact Us
-If you have questions, suggestions, and bug reports, please email us, we will try our best to help you.
+If you have questions, suggestions, and bug reports, please email us. We will try our best to help you.
 ```
 hm.cypeng@gmail.com
 ```
