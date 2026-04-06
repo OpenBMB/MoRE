@@ -68,7 +68,7 @@ We have prepared all the text datasets in `./datasets`, for images you need to d
 - `WebQA:` WebQA images can be downloaded from [Google Drive](https://drive.google.com/drive/folders/19ApkbD5w0I5sV1IeQ9EofJRyAjKnA7tb)
 
 ## Training
-If you do not want to train the model, you can download [R1-Router](https://huggingface.co/hmhm1229/R1-Router) and skip this section to [Evaluation](#evaluation)
+If you do not want to train the model, you can download [MoRE](https://huggingface.co/hmhm1229/R1-Router) and skip this section to [Evaluation](#evaluation)
 ### Data Synthesis
 If you want to use the ready-to-use synthetic data directly, you can skip this section to [Step-GRPO Training](#step-grpo-training)
 
