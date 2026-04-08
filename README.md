@@ -6,8 +6,8 @@
 <h5 align="center"> 
 
 <a href='https://arxiv.org/abs/2505.22095'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
-<a href='https://huggingface.co/hmhm1229/R1-Router'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
-<a href='https://huggingface.co/hmhm1229/R1-Router-3B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
+<a href='https://huggingface.co/hmhm1229/MoRE'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
+<a href='https://huggingface.co/hmhm1229/MoRE-3B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
 
 Chunyi Peng<sup>1</sup>,
 Zhipeng Xu<sup>1</sup>,
@@ -26,9 +26,9 @@ Maosong Sun<sup>2</sup>
 </div>
 
 ## News
-2026.04.03 Our work is accepted by SIGIR2026 🎉🎉🎉!
+2026.04.03 Our work is accepted by SIGIR 2026 🎉🎉🎉!
 
-2025.08.22 We upload [MoRE-3B](https://huggingface.co/hmhm1229/R1-Router-3B).
+2025.08.22 We upload [MoRE-3B](https://huggingface.co/hmhm1229/MoRE-3B).
 
 ## Environment
 For training, answer generation, and evaluation processes:
@@ -54,7 +54,7 @@ python wiki_preprocess.py
 ```
 For the image corpus, you can directly download [M-BEIR](https://huggingface.co/datasets/TIGER-Lab/M-BEIR). To embed and index it you can follow the [repository](https://github.com/TIGER-AI-Lab/UniIR)
 
-For the table corpus, you can download, embed and index Open-WikiTable following the [repository](https://github.com/sean0042/Open_WikiTable), or you can download directly the one we have already preprocessed from [here](https://huggingface.co/hmhm1229/table-retriever). 
+For the table corpus, you can download, embed, and index Open-WikiTable following the [repository](https://github.com/sean0042/Open_WikiTable), or you can download directly the one we have already preprocessed from [here](https://huggingface.co/hmhm1229/table-retriever). 
 
 ## Retrievers Preparation
 For the Text-Image Retriever, you can directly download [UniIR](https://huggingface.co/TIGER-Lab/UniIR)
@@ -77,7 +77,7 @@ First, we need to synthesize the data step by step:
 bash src/data_synthesis/data_synthesis.sh
 ```
 ### Step-GRPO Training
-Our training framework is based on [EasyR1](https://github.com/hiyouga/EasyR1), only you need to do is to download it and replace some files with the files in `./Easy-R1`.
+Our training framework is based on [EasyR1](https://github.com/hiyouga/EasyR1). All you need to do is download it and replace some files with the files in `./Easy-R1`.
 Then start training with the command:
 ```bash
 conda activate router
@@ -114,7 +114,7 @@ We appreciate your citations if you find our paper relevant and useful to your r
 ```
 
 ## Contact Us
-If you have questions, suggestions, and bug reports, please email us. We will try our best to help you.
+If you have questions, suggestions, or bug reports, please email us. We will try our best to help you.
 ```
 hm.cypeng@gmail.com
 ```
