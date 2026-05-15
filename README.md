@@ -5,7 +5,7 @@
 
 <h5 align="center"> 
 
-<a href='https://arxiv.org/abs/2505.22095'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://arxiv.org/abs/2505.22095v2'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 <a href='https://huggingface.co/hmhm1229/MoRE'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
 <a href='https://huggingface.co/hmhm1229/MoRE-3B'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
 
