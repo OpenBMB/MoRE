@@ -82,11 +82,11 @@ def wiki_embed(segment, batch_size):
     # encoded = np.empty((0, 1024), dtype=np.float16)
     chunk_count = 0
     for batch in tqdm(dataloader):
-        chunk_count += 1
         with torch.no_grad():
             output = encode(batch)
             file_name = f'./wikipedia/embed/embeded_wiki_{chunk_count}.npy'
             np.save(file_name, output)
+        chunk_count += 1
 
 
 def index():
